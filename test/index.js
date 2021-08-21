@@ -1,9 +1,6 @@
 const Gracchi = require("../dist").default;
 require('dotenv').config()
-var expect = require('chai').expect
-  , foo = 'bar'
-  , beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
-
+var { expect } = require('chai');
 
 const base = "BNB",
   quote = "CBRL";
